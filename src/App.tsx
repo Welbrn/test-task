@@ -1,11 +1,13 @@
-import { useState } from 'react'
+import { TrainerForm } from "./components/TrainerForm";
 
 function App() {
   return (
-    <div>
-      <p>Welcome to Luna Edge technical interview</p>
+    <div className="flex justify-center items-center min-h-screen">
+      <div className="max-w-lg w-full">
+        <TrainerForm />
+      </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
